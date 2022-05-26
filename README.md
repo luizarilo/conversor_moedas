@@ -1,5 +1,5 @@
 # Conversor de moedas
-##Tecnologias utilizadas: HTML(Bulma), CSS e JavaScript
+## Tecnologias utilizadas: HTML(Bulma), CSS e JavaScript
 
 O projeto ainda não está atualizando automaticamente os valores de conversão, portanto, caso deseje atualizar a conversão, é preciso alterar no JavaScript os valores na variáveis "euroValue" e "dolarValue"
 
