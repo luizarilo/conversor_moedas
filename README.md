@@ -13,4 +13,4 @@ As conversões disponíveis são:
 
 Qualquer opção, exceto essas, será informado na página "Escolha uma opção de conversão válida!"
 
-Para utilização, basta escolher o tipo de conversão, inserir o valor que deseja converte e apertar no botão "Converter".
+Para utilização, basta escolher o tipo de conversão, inserir o valor que deseja converter e apertar no botão "Converter".
