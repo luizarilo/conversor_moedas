@@ -1,0 +1,15 @@
+.containers{
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.content{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input{
+    width: 200px;
+    margin-bottom: 20px;
+}

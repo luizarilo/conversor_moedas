@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de moedas</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/css/all.css"></script>
+    <link href="styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <div class="containers">
+            <p class="title is-2">Conversor de moedas</p>
+        </div>
+    </header>
+    <section>
+        <div class="columns">
+            <div class="column is-half">
+                <div class="content">
+                    <p class="title is-5">Converter de: </p>
+                    <div class="select is-black">
+                        <select id="firstChoice">
+                            <option value="0">Selecione uma opção</option>
+                            <option value="1">Dólar</option>
+                            <option value="2">Real</option>
+                            <option value="3">Euro</option>
+                        </select>
+                    </div>
+                </div>
+
+            </div>
+            <div class="column is-half">
+                <div class="content is-justify">
+                    <p class="title is-5">Para: </p>
+                    <div class="select is-black">
+                        <select id="secondChoice">
+                            <option value="0">Selecione uma opção</option>
+                            <option value="1">Dólar</option>
+                            <option value="2">Real</option>
+                            <option value="3">Euro</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="columns">
+            <div class="column is-full">
+                <div class="content">
+                    <p class="title is-5">Insira o valor:</p>
+                    <p class="title is-7">Cotação do Dólar = R$4,82</p>
+                    <p class="title is-7">Cotação do Euro = R$5,14</p>
+                    <input class="input is-black" type="number" id="valueToConvert" name="valueToConvert"
+                        placeholder="Insira o valor aqui">
+                    <div class="control">
+                        <button class="button is-dark" onclick="teste()">Converter</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="column is-full">
+            <div class="content">
+                <span id="myText"></span>
+            </div>
+        </div>
+        </div>
+
+    </section>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
