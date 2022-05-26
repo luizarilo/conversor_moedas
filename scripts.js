@@ -1,8 +1,6 @@
 let dolarValue = 4.82;
 let euroValue = 5.14;
 
-
-
 function teste() {
     let chosenOption1 = document.getElementById("firstChoice");
     let chosenOption2 = document.getElementById("secondChoice");
@@ -40,7 +38,7 @@ function teste() {
         let convertionBrToDo = 0;
         convertionBrToDo = valueToConvert * euroValue / dolarValue;
         let convertionRounded = parseFloat(convertionBrToDo.toFixed(2));
-        document.getElementById("myText").innerHTML = ("A conversão de euro para para fica: US$" + convertionRounded);
+        document.getElementById("myText").innerHTML = ("A conversão de euro para dólar fica: US$" + convertionRounded);
     }else{
         document.getElementById("myText").innerHTML = ("Escolha uma opção de conversão válida!");
     }
